@@ -5,7 +5,7 @@
 - Delete ```<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">``` from public/index.html
 - run command
     ```
-    $ sudo apt install nodejs
+    $ sudo apt install npm
     $ npm install
     $ npm run translations-csv2json
     ```
