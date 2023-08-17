@@ -45,9 +45,9 @@ $ mv /tmp/springloaded-1.2.1.RELEASE.jar $HOME/.grails/wrapper/2.4.4/grails-2.4.
 ## Configure cytomine-bootstrap to debug the core
 ### Enter the cytomine-bootstrap project, switch to the master branch
 
-- Open start_deploy.sh.sample, add the following two lines to expose the database port to the local network
+- Open start_deploy.sh.sample, add the following 3 lines to expose the database and mq port to the local network
     
-    ![img.png](core/sql_port.png)
+    ![img.png](core/port.png)
 
 - Open configs/nginx/nginx.conf.sample, change all http://core:8080 to http://172.17.0.1:8080
 
