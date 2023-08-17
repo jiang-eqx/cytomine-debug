@@ -59,6 +59,9 @@ $ mv /tmp/springloaded-1.2.1.RELEASE.jar $HOME/.grails/wrapper/2.4.4/grails-2.4.
 127.0.0.1 localhost-upload
 127.0.0.1 localhost-ims
 127.0.0.1 localhost-ims2
+127.0.0.1 postgresql
+127.0.0.1 rabbitmq
+127.0.0.1 mongodb
 ```
 - Change tomcat port
 
