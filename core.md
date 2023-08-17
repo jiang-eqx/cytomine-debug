@@ -60,12 +60,20 @@ $ mv /tmp/springloaded-1.2.1.RELEASE.jar $HOME/.grails/wrapper/2.4.4/grails-2.4.
 127.0.0.1 localhost-ims
 127.0.0.1 localhost-ims2
 ```
+- Change tomcat port
+
+  Change `Integer.parseInt(System.getProperty("server.port"))` to `8080` in scripts/_Events.groovy
+
+  ![img.png](core/tomcat_port.png)
 - Execute the following commands to deploy cytomine
 ```
 $ bash init
 $ cp configs/core/cytomineconfig.groovy $HOME/.grails/
 $ bash start
 ```
+
+
+
 - Now you can debug the core in IDEA
 
     ![img.png](core/core_debug.png)]()
