@@ -14,9 +14,9 @@
 
 ### Download the Grails interpreter
 ```
-$ mkdir $HOME/.grails/wrapper/2.4.4/
+$ mkdir -p $HOME/.grails/wrapper/2.4.4/
 $ wget https://github.com/grails/grails-core/releases/download/v2.4.4/grails-2.4.4.zip -O /tmp/grails.zip
-$ unzip /tmp/grails.zip -d $HOME/ls .grails/wrapper/2.4.4/
+$ unzip /tmp/grails.zip -d $HOME/.grails/wrapper/2.4.4/
 ```
 
 ### Fix grails2.4.4 jvm bug
